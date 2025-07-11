@@ -35,9 +35,9 @@ def login():
 def login():
     return {
         "message": "fetched Data Successfully",
-        "users" : {
-            "name" : "HK",
-            "password" : "123"
-        }
-        
-        }
+        "users": [
+            {"name": "HK", "password": "123"},
+            {"name": "Hari", "password": "456"}
+        ]
+    }
+
